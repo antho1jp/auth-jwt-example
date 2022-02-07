@@ -1,6 +1,6 @@
-const express = require('express'),
-    router = express.Router(),
-    auth = require('../app_modules/auth');
+const express = require('express');
+const router = express.Router();
+const auth = require('../app_modules/auth');
 
 router.get('/', (req,res) => {
     res.send('Hello World')
